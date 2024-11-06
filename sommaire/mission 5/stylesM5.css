@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cv {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid black;
+     
+}
+
+.info {
+    flex: 1;
+}
+
+.photo {
+    flex: 0 0 150px;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.section {
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.date {
+    flex: 0 0 150px;
+    font-weight: bold;
+}
+
+.description {
+    flex: 1;
+}
+
+hr{
+    background-color:#007bff;
+}
+.description {
+    flex: 1;
+}
+
+.link-item {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+border:2px solid black;
+}
+
+.link-item:hover {
+    background-color: #0056b3;
+}
