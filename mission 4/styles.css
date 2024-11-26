@@ -1,0 +1,75 @@
+
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #34067e;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+    display: inline-block;
+    color: #040005;
+
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0 15px 0;
+    border: 1px solid #6f0a97;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    border: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+button, input[type="submit"] {
+    background-color: #34067e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #34067e;
+}
+
+a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

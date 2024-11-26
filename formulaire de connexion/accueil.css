@@ -1,0 +1,34 @@
+body{
+    background-color: #D1B4D9;
+}
+.bloc1{
+    background-color: antiquewhite;
+    border: 25% solid;
+    width: 20%;
+    height: 10%;
+}
+.bloc2{
+    background-color: #027B80;
+    border: 25% solid;
+    width: 20%;
+    height: 10%;
+}
+.bloc3{
+    background-color: #00E4EC;
+    border: 25% solid;
+    width: 20%;
+    height: 10%;
+}
+.bloc4{
+    background-color: #90C0C2;
+    border: 25% solid;
+    width: 20%;
+    height: 10%;
+}
+.bloc5{
+    background-color: #90C0C2;
+    border: 25% solid;
+    width: 20%;
+    height: 10%;
+}
+
